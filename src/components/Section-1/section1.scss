@@ -1,0 +1,67 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 250px;
+    .curvy{
+        background-color: #1c2431;
+        position: absolute;
+        bottom: 0;
+    }
+    picture{
+        position: relative;
+        bottom: 216px;
+        background-color: #1c2431;
+    }
+    .container {
+        width: 100%;
+        background-color: $primary;
+    }
+    .container-image {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        img {
+            width: 600px;
+            height: 445px;
+            z-index: 1;
+        }
+    }
+    .container-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        width: 50%;
+        padding: 20px 0 0;
+        z-index: 2;
+        position: relative;
+        h2 {
+            color: white;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 0rem;
+            padding: 20px 0 0 ;
+            font-weight: 700;
+            line-height: 40px;
+        }
+        p {
+            padding: 25px 90px 35px;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        button {
+            padding: 10px;
+            color: white;
+            width: 180px;
+            border-radius: 1350px;
+            font-weight: 600;
+            background-color: hsl(198, 60%, 50%);
+            border: none;
+            font-size: 15px;
+        }
+    }
+}
